@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "google sans", sans-serif;
+}
+body{
+    background-color: rgb(35, 175, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: rgb(91, 195, 243);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .left-side{
+    position: relative;
+    background-color: rgb(141, 202, 231);
+    padding: 40px;
+}
+.profiltexte{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(rgb(125, 131, 134), rgb(97, 100, 97), rgb(201, 201, 210), alpha);
+
+}
+.profiltexte .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    overflow: hidden;
+}
+.profiltexte .imgBx img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profiltexte h2{
+    color: white;
+    font-size: 1,5em;
+    margin-top: 20px;
+
+}
+.profiltexte h2 span{
+    font-size: 0,8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 40px;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 15px;
+    font-size: 12px;
+    padding: 13px;
+    color: rgb(69, 168, 225);
+}
+.contactInfo ul li span{
+    position: relative;
+    color: aliceblue;
+    padding: 10px;
+}
+.contactInfo.education li{
+    margin-bottom: 10px;
+}
+.contactInfo.education h5{
+    color: rgb(59, 162, 207);
+    font-weight: 500;
+}
+.contactInfo.education h4{
+    color: azure;
+    font-weight: 200;
+}
+.container .right-side{
+    position: relative;
+    background-color: azure;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: rgb(6, 66, 106);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+p{
+    color: rgb(12, 66, 93);
+    letter-spacing: 1px;
+}
+.projets p{
+    color: rgb(6, 66, 106);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.compétences ul li{
+    color: rgb(6, 66, 106);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: justify
+}
+.intérêt ul li{
+    color: rgb(6, 66, 106);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: justify
+}
+.text{
+        color: rgb(6, 66, 106);
+
+}
+.contactInfo.langue span{
+    color: rgb(6, 66, 106);
+
+}
+.contactInfo.langue .percent{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: rgb(181, 226, 230);
+    display: block;
+    margin-top: 5px;
+}
+.contactInfo.langue .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(97, 173, 220);
+
+}

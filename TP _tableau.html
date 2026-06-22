@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TP_tableau</title>
+    <style>
+        table {
+                width: 100%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                font-family: Times New Roman, sans-serif;
+                text-align: center;
+            }
+            td {
+                border: 2px solid black;
+                padding: 20px;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            .header-eneam {
+                background-color: rgb(85, 114, 233);
+                font-size: 25px;
+                letter-spacing: 1px;
+                color: rgb(29, 29, 31);
+            }
+            .ig1-b {
+                background-color: rgb(199, 189, 189);
+                color:rgb(80, 78, 228);
+                font-size: 19px;
+            }
+            .epac {
+                background-color: rgb(198, 194, 194);
+                color:rgb(84, 86, 212);
+                font-size: 19px;
+            }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3" class="header-eneam">ENEAM</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="2" class="ig1-b">IG1 - B</td>
+            <td colspan="2">A</td>
+        </tr>
+        
+        <tr>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        
+        <tr>
+            <td class="epac">EPAC</td>
+            <td colspan="2">Programmation</td>
+        </tr>
+    </table>
+</body>
+</html>

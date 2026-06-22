@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                /* Listes à puces non ordonnées */ 
+        .body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .cercle 
+        { 
+        list-style-type: circle; 
+        } 
+        .carre 
+        { 
+        list-style-type: square; 
+        } 
+        .rien 
+        { 
+        list-style-type: none; 
+        }
+        .commence_a_zero 
+        { 
+        list-style-type: decimal-leading-zero; 
+        } 
+        .lettres_minuscules 
+        { 
+        list-style-type: lower-alpha; 
+        } 
+        .chiffres_romains 
+        { 
+        list-style-type: upper-roman; 
+        } 
+        .lettres_grecques 
+        { 
+        list-style-type: lower-greek; 
+        } 
+        /* Quelques styles supplémentaires juste pour la présentation 
+        En plus ça vous fait quelques rappels ;o) */ 
+        h2 
+        { 
+        text-indent: 20px; 
+        font-family: Arial, Verdana, "Times New Roman", serif; 
+        } 
+        em 
+        { 
+        background-color: yellow; 
+        } 
+        strong 
+        { 
+        color: red; 
+        }
+    </style>
+</head>
+<body>
+    <h2>Quelques listes non ordonnées</h2> 
+    <p>Voici une liste à puce non ordonnée sans modification (= <em>disc</em>) :</p> 
+    <ul> 
+        <li>Liste</li> 
+        <li>à</li> 
+        <li>puces</li> 
+    </ul> 
+    <p>Avec <em>circle</em> :</p> 
+    <ul class="cercle"> 
+        <li>Liste</li> 
+        <li>à</li> 
+        <li>puces</li> 
+    </ul> 
+    <p>Avec <em>square</em> :</p> 
+    <ul class="carre"> 
+        <li>Liste</li> 
+        <li>à</li> 
+        <li>puces</li> 
+    </ul> 
+    <p>Avec <em>none</em> (sans puces) :</p> 
+    <ul class="rien"> 
+        <li>Liste</li> 
+        <li>à</li> 
+        <li>puces</li> 
+    </ul> 
+    <h2>Quelques listes ordonnées</h2> 
+    <p>Liste à puces ordonnée sans modification (= <em>decimal</em>)</p> 
+    <ol> 
+        <li>Un</li> 
+        <li>Deux</li> 
+        <li>Trois</li> 
+        <li>Quatre</li> 
+    </ol> 
+    <p>Avec <em>decimal-leading-zero</em> (<strong>Ne fonctionne pas sous IE)</strong>) :</p> 
+    <ol class="commence_a_zero"> 
+        <li>Un</li> 
+        <li>Deux</li> 
+        <li>Trois</li> 
+        <li>Quatre</li> 
+    </ol> 
+    <p>Avec <em>lower-alpha</em> :</p> 
+    <ol class="lettres_minuscules"> 
+        <li>Un</li> 
+        <li>Deux</li> 
+        <li>Trois</li> 
+        <li>Quatre</li> 
+    </ol> 
+    <p>Avec <em>upper-roman</em> :</p> 
+    <ol class="chiffres_romains"> 
+        <li>Un</li> 
+        <li>Deux</li> 
+        <li>Trois</li> 
+        <li>Quatre</li> 
+    </ol> 
+    <p>Avec <em>lower-greek</em> (<strong>Ne fonctionne pas sous IE</strong>) :</p> 
+    <ol class="lettres_grecques"> 
+        <li>Un</li> 
+        <li>Deux</li> 
+        <li>Trois</li> 
+        <li>Quatre</li> 
+    </ol>
+</body>
+</html>
